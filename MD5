@@ -1,0 +1,14 @@
+c3f2465ed4799268adbcbeef6181a437 *DESCRIPTION
+f870db48b787e4b8f396ce9ad9f328fe *NAMESPACE
+5ca637aa7baea6f1224b3b057bd79742 *R/plot.standz.all.R
+56728c884c39d5502d09e5aee700353e *R/plot.tgram.R
+ad401a6e362d756d984e33c2337b97cb *R/standz.R
+c99770c893b1a916319dd25b4a9b1e47 *R/standz.all.R
+ed8bfacb5758d28946adf0369a68e7e2 *R/tgram.R
+a065b1154ecde719846bc207e72db130 *data/juniperus.rda
+40887e7f44665b2f7d9152bbfc2acbda *data/traq.profile.rda
+42b88b0064df4f7ef0fe1361a406a1bb *inst/CITATION
+c94eda95f5dd7e238516297581a47f9d *man/juniperus.Rd
+638937e67ebae39d0cfd3f85a04a3ca7 *man/standz.all.Rd
+ff52ad70bf759aa1a4932d006bbc65a7 *man/tgram.Rd
+1bf99b27b4bf18ed1be6d4dd7fa75b08 *man/traq.profile.Rd
