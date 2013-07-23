@@ -21,7 +21,11 @@ An example of traqueid measurements to standarize with function tgram
 
 \examples{
 data(juniperus)
-cosa <- with(juniperus, standz.all(traq=width.um, series=traqueidogram, wl=lumen.wall, w.char="w", G=20))
+cosa <- with(juniperus, 
+                  standz.all(traq=width.um, series=traqueidogram,
+                                 wl=lumen.wall, w.char="w", G=20)
+                  ) 
+
 plot(cosa, type="l")
 
 }

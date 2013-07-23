@@ -89,7 +89,7 @@ dmadera <-   distancias[que==2]
       lumens <- dlumen  
       if(what[length(what)]==1) lumens <- dlumen[-length(what)] #discard last lumen measure if this is the last measure at all (we want whole cell measures, i.e. "wall-lumen-wall")
       if(what[1]==1) lumens <- lumens[-1] #discard first lumen measure if this is the first measure at all 
-      TD <- dwall[-length(dwall)] + dwall[-1] + lumens
+      TD <- (dwall[-length(dwall)]/2) + (dwall[-1]/2) + lumens
       
   #### OJO #######
       LD_CWT_ratio <- lumens/CWT

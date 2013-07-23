@@ -11,7 +11,9 @@ Function to compute tracheidograms from microscopic measurements.
 \usage{
 tgram(traq, val50 = 50, xlim = NULL, ylim = NULL, mw = 1, plotit = TRUE)
 
-\method{plot}{tgram}(x, xlim = NULL, ylim = NULL, colores = c("red", "green"), leyenda = c("lumen", "double wall"), lwd = 2, add = FALSE, traq.0 = TRUE, bg.legend = NULL, ...)
+\method{plot}{tgram}(x, xlim = NULL, ylim = NULL, colores = c("red", "green"),
+      leyenda = c("lumen", "double wall"), lwd = 2,
+      add = FALSE,traq.0 = TRUE, bg.legend = NULL, ...)
 }
 \arguments{
   \item{traq}{
@@ -93,7 +95,9 @@ Marcelino de la Cruz \email{marcelino.delacruz@upm.es} and Lucia DeSoto
 \dontrun{
 data(traq.profile)
 
-plot(tgram(traq.profile, mw=10),leyenda=c("lumen","double wall"),xlab="distance pixel", ylab="grey value",ylim=c(0,250),bg.legend="white")
+plot(tgram(traq.profile, mw=10),leyenda=c("lumen","double wall"),
+        xlab="distance pixel", ylab="grey value",ylim=c(0,250),
+        bg.legend="white")
 
 }
 
