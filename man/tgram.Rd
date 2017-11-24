@@ -3,7 +3,7 @@
 \alias{plot.tgram}
 
 \title{
-Compute tracheidograms
+Compute Tracheidograms
 }
 \description{
 Function to compute tracheidograms from microscopic measurements.
@@ -85,21 +85,21 @@ tgram returns an object of class \emph{tgram}, bassically a list with
 
 }
 \references{
-DeSoto, L., De la Cruz, M. & Fonti, P. 2010. Intra-annual pattern of tracheid size in the Mediterranean Juniperus thurifera as indicator for seasonal water stress. \emph{Submited}
+DeSoto, L., De la Cruz, M. & Fonti, P. 2011. Intra-annual pattern of tracheid size in the Mediterranean Juniperus thurifera as indicator for seasonal water stress. \emph{Canadian Journal of Forest Research}  41: 1280-1294.
 }
 \author{
-Marcelino de la Cruz \email{marcelino.delacruz@upm.es} and Lucia DeSoto
+Marcelino de la Cruz Rot and Lucia DeSoto
 }
 
 \examples{
-\dontrun{
+
 data(traq.profile)
 
 plot(tgram(traq.profile, mw=10),leyenda=c("lumen","double wall"),
         xlab="distance pixel", ylab="grey value",ylim=c(0,250),
         bg.legend="white")
 
-}
+
 
 }
 

@@ -2,10 +2,10 @@
 \alias{juniperus}
 \docType{data}
 \title{
-Traqueid measurements in Juniperus thurifera
+Traqueid Measurements in Juniperus thurifera
 }
 \description{
-An example of traqueid measurements to standarize with function tgram
+An example of traqueid measurements to standarize with function \code{tgram}.
 }
 \usage{data(juniperus)}
 \format{

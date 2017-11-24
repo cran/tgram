@@ -4,10 +4,10 @@
 \alias{plot.standz.all}
 
 \title{
-Vaganov normalized tracheidogram
+Vaganov Normalized Tracheidogram
 }
 \description{
-The function produces a normalized tracheidogram, i.e. a curve showing variations in cell parameters as a function of the cell position within an annual ring, following the procedure of Vaganov (1990) 
+The function produces a normalized tracheidogram, i.e. a curve showing variations in cell parameters as a function of the cell position within an annual ring, following the procedure of Vaganov (1990). 
 }
 \usage{
 standz.all(traq, series, wl = NULL, w.char = NULL, order = NULL, G = 30)
@@ -71,12 +71,12 @@ Vaganov, E.A. 1990. The tracheidogram method in tree-ring analysis and its appli
 
 }
 \author{
-Marcelino de la Cruz \email{marcelino.delacruz@upm.es} and Lucia DeSoto
+Marcelino de la Cruz Rot and Lucia DeSoto
 }
 
 
 \examples{
-\dontrun{
+
 data(juniperus)
 
 cosa <- with(juniperus,
@@ -86,14 +86,14 @@ cosa <- with(juniperus,
 
 plot(cosa, type="l")
 plot(cosa, type="l", which="w")
-plot(cosa, type="l", which="l", add=T)
+plot(cosa, type="l", which="l", add=TRUE)
 
 standz(with(juniperus,width.um[traqueidogram==1 & lumen.wall =="l"]), G=20)
 
 lines(1:20,
       standz(with(juniperus,width.um[traqueidogram==1 & lumen.wall =="l"]), G=20),
       lwd=3)
-}
+
 }
 
 \keyword{ smooth }

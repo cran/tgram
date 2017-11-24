@@ -2,7 +2,7 @@
 \alias{traq.profile}
 \docType{data}
 \title{
-Light intensity throughout a microscopic section of Juniperus thurifera wood 
+Light Throughout a Microscopic Section of Juniperus Wood 
 }
 \description{
 A measurement of light intensity troughout a sequence of pixels in a microscopic section of \emph{Juniperus thurifera} wood.

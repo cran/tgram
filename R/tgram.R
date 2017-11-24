@@ -1,7 +1,7 @@
 tgram <-
 function(traq, val50=50, xlim=NULL, ylim=NULL, mw=1, plotit=TRUE)
 {
-require (zoo)
+
 traq0 <- traq
 if(length(dim(traq))!=2) traq <- cbind(attributes(zoo(traq))$index, traq)
         
